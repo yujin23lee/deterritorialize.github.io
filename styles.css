@@ -1,0 +1,783 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Prevent interaction */
+}
+.title{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 120%;
+}
+
+@keyframes rain-fall {
+    0% {
+        top: -50px;  /* Start from above the screen */
+    }
+    100% {
+        top: 100vh;  /* End at the bottom of the screen */
+    }
+}
+body {
+    overflow: hidden;
+}
+
+/*
+body{
+    background-color: black;
+    margin: 0;
+    overflow: hidden; /* Prevents scrolling */
+/*}*/
+
+  .rain {
+    position: absolute;
+    animation: rain-fall 5s infinite linear; /* 5 seconds for each drop */
+}
+
+
+.text1 {
+    cursor: pointer;
+    position: absolute; 
+    top: 5%;
+    left: 15%;
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text1:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text2 {
+    cursor: pointer;
+    position: absolute;
+    top: 8%; 
+    left: 20%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+
+}
+.text2:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text3 {
+    cursor: pointer;
+    position: absolute; 
+    top: 14%;
+    left: 21%;
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text3:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text4 {
+    cursor: pointer;
+    position: absolute;
+    top: 18%; 
+    left: 23%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text4:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text5{
+    cursor: pointer;
+    position: absolute;
+    top: 15%; 
+    left: 34%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text5:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text6{
+    cursor: pointer;
+    position: absolute;
+    top: 17%; 
+    left: 36%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text6:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text7{
+    cursor: pointer;
+    position: absolute;
+    top: 13%; 
+    left: 42%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text7:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text8{
+    cursor: pointer;
+    position: absolute;
+    top: 16%; 
+    left: 53%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text8:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text9{
+    cursor: pointer;
+    position: absolute;
+    top: 20%; 
+    left: 56%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text9:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text10{
+    cursor: pointer;
+    position: absolute;
+    top: 10%; 
+    left: 68%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text10:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text11{
+    cursor: pointer;
+    position: absolute;
+    top: 30%; 
+    left: 74%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text11:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text12{
+    cursor: pointer;
+    position: absolute;
+    top: 35%; 
+    left: 78%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text12:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text13{
+    cursor: pointer;
+    position: absolute;
+    top: 37%; 
+    left: 76%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text13:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text14{
+    cursor: pointer;
+    position: absolute;
+    top: 15%; 
+    left: 90%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text14:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text15{
+    cursor: pointer;
+    position: absolute;
+    top: 67%; 
+    left: 68%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text15:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text16{
+    cursor: pointer;
+    position: absolute;
+    top: 72%; 
+    left: 75%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text16:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text17{
+    cursor: pointer;
+    position: absolute;
+    top: 75%; 
+    left: 84%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text17:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text18{
+    cursor: pointer;
+    position: absolute;
+    top: 76%; 
+    left: 86%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text18:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text19{
+    cursor: pointer;
+    position: absolute;
+    top: 77%; 
+    left: 88%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text19:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text20{
+    cursor: pointer;
+    position: absolute;
+    top: 84%; 
+    left: 85%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text20:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text21{
+    cursor: pointer;
+    position: absolute;
+    top: 88%; 
+    left: 90%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text21:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text22{
+    cursor: pointer;
+    position: absolute;
+    top: 83%; 
+    left: 50%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text22:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text23{
+    cursor: pointer;
+    position: absolute;
+    top: 80%; 
+    left: 46%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text23:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text24{
+    cursor: pointer;
+    position: absolute;
+    top: 77%; 
+    left: 53%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text24:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text25{
+    cursor: pointer;
+    position: absolute;
+    top: 78%; 
+    left: 60%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text25:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text26{
+    cursor: pointer;
+    position: absolute;
+    top: 80%; 
+    left: 63%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text26:hover{
+    transform: scale(1.5);  
+    transition: transform 0.3s ease-in-out;
+}
+.text27{
+    cursor: pointer;
+    position: absolute;
+    top: 71%; 
+    left: 39%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text27:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.text28{
+    cursor: pointer;
+    position: absolute;
+    top: 57%; 
+    left: 32%; 
+    font-size: 150%;
+    color: black;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+}
+.text28:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+  
+.감자와토끼의집{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+}
+.감자와토끼의집:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.배고파{
+    cursor: pointer;
+    position: absolute;
+    top: 57%;
+    left: 47%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.배고파:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.병아리{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.병아리:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.여우랑펭귄{
+    cursor: pointer;
+    position: absolute;
+    top: 59%;
+    left: 57%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.여우랑펭귄:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.삼겹살{
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.삼겹살:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.낭만{
+    cursor: pointer;
+    position: absolute;
+    top: 69%;
+    left: 70%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.낭만:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.지루해{
+    cursor: pointer;
+    position: absolute;
+    top: 78%;
+    left: 35%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.지루해:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.노래방{
+    cursor: pointer;
+    position: absolute;
+    top: 72%;
+    left: 32%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.노래방:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.철물점{
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.철물점:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.야경{
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.야경:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.금속{
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.금속:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.미로{
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    left: 29%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.미로:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.새까매{
+    cursor: pointer;
+    position: absolute;
+    top: 42%;
+    left: 24%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.새까매:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.말차{
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.말차:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.아마존{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whblackite;
+}
+.아마존:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.인쇄{
+    cursor: pointer;
+    position: absolute;
+    top: 59%;
+    left: 15%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.인쇄:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.졸려{
+    cursor: pointer;
+    position: absolute;
+    top: 67%;
+    left: 18%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.졸려:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.낡았어{
+    cursor: pointer;
+    position: absolute;
+    top: 74%;
+    left: 20%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.낡았어:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.한인회{
+    cursor: pointer;
+    position: absolute;
+    top: 86%;
+    left: 8%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.한인회:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.햄스터{
+    cursor: pointer;
+    position: absolute;
+    top: 37%;
+    left: 4%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.햄스터:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.카드보드{
+    cursor: pointer;
+    position: absolute;
+    top: 24%;
+    left: 6%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.카드보드:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.스타워즈{
+    cursor: pointer;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.스타워즈:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}
+.풀떼기{
+    cursor: pointer;
+    position: absolute;
+    top: 74%;
+    left: 77%;
+    font-size: 100%;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.풀떼기:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease-in-out;
+}

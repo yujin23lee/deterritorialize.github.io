@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Dream Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="connectionCanvas"></canvas> <!-- Canvas for drawing lines -->
+    <p class="title">Deterritorialize</p>
+
+    <div class="text1" onclick="startRaining(1,1)">?</div>
+    <div class="text2" onclick="startRaining(1,1)">?</div>
+    <div class="text3" onclick="startRaining(1,1)">?</div>
+    <div class="text4" onclick="startRaining(1,1)">?</div>
+    <div class="text5" onclick="startRaining(1,1)">?</div>
+    <div class="text6" onclick="startRaining(1,2)">?</div>
+    <div class="text7" onclick="startRaining(1,1)">?</div>
+    <div class="text8" onclick="startRaining(1,1)">?</div>
+    <div class="text9" onclick="startRaining(1,1)">?</div>
+    <div class="text10" onclick="startRaining(1,1)">?</div>
+    <div class="text11" onclick="startRaining(1,1)">?</div>
+    <div class="text12" onclick="startRaining(1,1)">?</div>
+    <div class="text13" onclick="startRaining(1,1)">?</div>
+    <div class="text14" onclick="startRaining(1,1)">?</div>
+    <div class="text15" onclick="startRaining(1,1)">?</div>
+    <div class="text16" onclick="startRaining(1,1)">?</div>
+    <div class="text17" onclick="startRaining(1,1)">?</div>
+    <div class="text18" onclick="startRaining(1,1)">?</div>
+    <div class="text19" onclick="startRaining(1,1)">?</div>
+    <div class="text20" onclick="startRaining(1,1)">?</div>
+    <div class="text21" onclick="startRaining(1,1)">?</div>
+    <div class="text22" onclick="startRaining(1,1)">?</div>
+    <div class="text23" onclick="startRaining(1,1)">?</div>
+    <div class="text24" onclick="startRaining(1,1)">?</div>
+    <div class="text25" onclick="startRaining(1,1)">?</div>
+    <div class="text26" onclick="startRaining(1,1)">?</div>
+    <div class="text27" onclick="startRaining(1,1)">?</div>
+    <div class="text28" onclick="startRaining(1,1)">?</div>
+
+    <div class="스타워즈" onclick="startRaining(4,4)">스타워즈</div>
+    <div class="카드보드" onclick="startRaining(5,5)">카드보드</div>
+    <div class="햄스터" onclick="startRaining(2,2)">햄스터</div>
+    <div class="아마존" onclick="startRaining(3,3)">아마존</div>
+    <div class="새까매" onclick="startRaining(6,6)">새까매</div>
+    <div class="말차" onclick="startRaining(7,7)">말차</div>
+    <div class="미로" onclick="startRaining(8,8)">미로</div>
+    <div class="금속" onclick="startRaining(9,9)">금속</div>
+    <div class="야경" onclick="startRaining(10,10)">야경</div>
+    <div class="인쇄" onclick="startRaining(11,11)">인쇄</div>
+    <div class="졸려" onclick="startRaining(12,12)">졸려</div>
+    <div class="낡았어" onclick="startRaining(13,13)">낡았어</div>
+    <div class="한인회" onclick="startRaining(14,14)">한인회</div>
+    <div class="철물점" onclick="startRaining(15,15)">철물점</div>
+    <div class="노래방" onclick="startRaining(16,16)">노래방</div>
+    <div class="지루해" onclick="startRaining(17,17)">지루해</div>
+    <div class="삼겹살" onclick="startRaining(18,18)">삼겹살</div>
+    <div class="배고파" onclick="startRaining(19,19)">배고파</div>
+    <div class="병아리" onclick="startRaining(20,20)">병아리</div>
+    <div class="감자와토끼의집" onclick="startRaining(21,21)">감자와 토끼의 집</div>
+    <div class="여우랑펭귄" onclick="startRaining(22,22)">여우랑 펭귄</div>
+    <div class="낭만" onclick="startRaining(23,23)">낭만</div>
+    <div class="풀떼기" onclick="startRaining(24,24)">풀떼기</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Dream Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="text1" onclick="startRaining(1,1)">?</div>
+    <div class="text2" onclick="startRaining(1,1)">?</div>
+    <div class="text3" onclick="startRaining(1,1)">?</div>
+    <div class="text4" onclick="startRaining(1,1)">?</div>
+    <div class="text5" onclick="startRaining(1,1)">?</div>
+    <div class="text6" onclick="startRaining(1,2)">?</div>
+    <div class="text7" onclick="startRaining(1,1)">?</div>
+    <div class="text8" onclick="startRaining(1,1)">?</div>
+    <div class="text9" onclick="startRaining(1,1)">?</div>
+    <div class="text10" onclick="startRaining(1,1)">?</div>
+    <div class="text11" onclick="startRaining(1,1)">?</div>
+    <div class="text12" onclick="startRaining(1,1)">?</div>
+    <div class="text13" onclick="startRaining(1,1)">?</div>
+    <div class="text14" onclick="startRaining(1,1)">?</div>
+    <div class="text15" onclick="startRaining(1,1)">?</div>
+    <div class="text16" onclick="startRaining(1,1)">?</div>
+    <div class="text17" onclick="startRaining(1,1)">?</div>
+    <div class="text18" onclick="startRaining(1,1)">?</div>
+    <div class="text19" onclick="startRaining(1,1)">?</div>
+    <div class="text20" onclick="startRaining(1,1)">?</div>
+    <div class="text21" onclick="startRaining(1,1)">?</div>
+    <div class="text22" onclick="startRaining(1,1)">?</div>
+    <div class="text23" onclick="startRaining(1,1)">?</div>
+    <div class="text24" onclick="startRaining(1,1)">?</div>
+    <div class="text25" onclick="startRaining(1,1)">?</div>
+    <div class="text26" onclick="startRaining(1,1)">?</div>
+    <div class="text27" onclick="startRaining(1,1)">?</div>
+    <div class="text28" onclick="startRaining(1,1)">?</div>
+
+    <div class="스타워즈" onclick="startRaining(4,4)">스타워즈</div>
+    <div class="카드보드" onclick="startRaining(5,5)">카드보드</div>
+    <div class="햄스터" onclick="startRaining(2,2)">햄스터</div>
+    <div class="아마존" onclick="startRaining(3,3)">아마존</div>
+    <div class="새까매" onclick="startRaining(6,6)">새까매</div>
+    <div class="말차" onclick="startRaining(7,7)">말차</div>
+    <div class="미로" onclick="startRaining(8,8)">미로</div>
+    <div class="금속" onclick="startRaining(9,9)">금속</div>
+    <div class="야경" onclick="startRaining(10,10)">야경</div>
+    <div class="인쇄" onclick="startRaining(11,11)">인쇄</div>
+    <div class="졸려" onclick="startRaining(12,12)">졸려</div>
+    <div class="낡았어" onclick="startRaining(13,13)">낡았어</div>
+    <div class="한인회" onclick="startRaining(14,14)">한인회</div>
+    <div class="철물점" onclick="startRaining(15,15)">철물점</div>
+    <div class="노래방" onclick="startRaining(16,16)">노래방</div>
+    <div class="지루해" onclick="startRaining(17,17)">지루해</div>
+    <div class="삼겹살" onclick="startRaining(18,18)">삼겹살</div>
+    <div class="배고파" onclick="startRaining(19,19)">배고파</div>
+    <div class="병아리" onclick="startRaining(20,20)">병아리</div>
+    <div class="감자와토끼의집" onclick="startRaining(21,21)">감자와 토끼의 집</div>
+    <div class="여우랑펭귄" onclick="startRaining(22,22)">여우랑 펭귄</div>
+    <div class="낭만" onclick="startRaining(23,23)">낭만</div>
+    <div class="풀떼기" onclick="startRaining(24,24)">풀떼기</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+-->
